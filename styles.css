@@ -1,0 +1,90 @@
+body{
+    background-color: plum;
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.brand_logo{
+    display:block;
+    width: 150px;;
+    height:auto
+    float:left
+    border: radius 15px;
+}
+h1{
+    text-align: center;
+    margin-top:0 ;
+    margin-bottom:0;
+}
+.sidebar{
+    float:left
+    width: 180px;
+    height:100vh;
+    background-color:black;
+    color:white;
+    position:fixed;
+    padding:0;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+}
+.sidebar li{
+    margin: 15px;
+    color:white;
+
+}
+.main-content{
+    margin: left 240px;
+    padding: 20px;
+    margin: left 180px;
+    margin-left:220px;
+    padding:20px
+}
+.welcome{
+    margin-bottom:40px
+}
+.concert-details{
+    background-color:plum;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+.ticket-section{
+    background-color:plum;
+    padding:20px;
+    border: radius 10px;
+    margin-bottom:30px
+}
+.ticket-list{
+    list-stye-type:square
+}
+}
+.about{
+    background-color:plum;
+    width:70%;
+    margin:30 px auto;
+    padding: 20px;
+    border-radius:10px;
+
+}
+.group-photo{
+    display:flex;
+    float:right
+    width: 100px;
+    height:250px;
+    margin: left 20px;
+    margin-bottom:15px;
+    border-radius:10px;
+    justify-content:center;
+    align-items:centre;
+}
+.info-section{
+    display:flex;
+    justify-content:space-around;
+    gap:30px;
+    margin: top 30px;
+}
