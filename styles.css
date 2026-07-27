@@ -35,7 +35,15 @@ h1{
 .sidebar li{
     margin: 15px;
     color:white;
+}
 
+.sidebar ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.sidebar ul li a:hover{
+    color:plum;
 }
 .main-content{
     margin: left 240px;
@@ -61,7 +69,7 @@ h1{
     list-stye-type:square
 }
 }
-.about{
+#about{
     background-color:plum;
     width:70%;
     margin:30 px auto;
